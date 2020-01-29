@@ -1,0 +1,9 @@
+{
+    "name": "Your-Thing-Name-In-IoT Platform",
+    "hostName": "Your-Custom-Endpoint-In-IoT Platform",
+    "privateKey": "Your-Private-Key-Path",
+    "clientCert": "Your-Certificate-Path",
+    "caCert": "Your-RootCA-Certificate-Path",
+    "clientId": "Your-Unique-Client-Identifier",
+    "region": "Your-Region"
+}
