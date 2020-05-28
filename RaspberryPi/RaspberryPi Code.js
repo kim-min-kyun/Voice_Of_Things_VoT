@@ -17,7 +17,7 @@ const device = awsIot.device({
 device.subscribe('$aws/things/MyRaspberryPi/shadow/update/accepted');
 
 device.on('connect', function() {
-    device.publish('$aws/things/MyRaspberryPi/shadow/update','{}');
+    device.publish('$aws/things/MyRaspberryPi/shadow/get','{}');
     console.log('[ Device Connected ]');
 });
 
